@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/vtrmartinez/wdio_test/issues"
   },
-  "homepage": "https://github.com/vtrmartinez/wdio_test#readme"
+  "homepage": "https://github.com/vtrmartinez/wdio_test#readme",
+  "devDependencies": {
+    "wdio-cucumber-framework": "^0.3.1",
+    "webdriverio": "^4.8.0"
+  }
 }
