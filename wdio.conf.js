@@ -122,7 +122,10 @@ exports.config = {
     reporters: ['spec'],//
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
-        require: ['./step_definitions/given.js'],        // <string[]> (file/dir) require files before executing features
+        require: [
+          './step_definitions/given.js',
+          './step_definitions/when.js'
+        ],        // <string[]> (file/dir) require files before executing features
         backtrace: false,   // <boolean> show full backtrace for errors
         compiler: [],       // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
         dryRun: false,      // <boolean> invoke formatters without executing steps
