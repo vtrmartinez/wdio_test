@@ -14,5 +14,5 @@ Feature: WebdriverIO WebSite
     Given I open the webdriverio WebSite
     When I click on Developer Guide
     And I click on menu Testrunner
-    And I click on menu frameworks
+    And I click on menu timeouts
     Then I see the timeouts page
