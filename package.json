@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/vtrmartinez/wdio_test#readme",
   "devDependencies": {
+    "cucumber": "^3.0.0",
     "wdio-cucumber-framework": "^0.3.1",
+    "wdio-spec-reporter": "^0.1.0",
     "webdriverio": "^4.8.0"
   }
 }
